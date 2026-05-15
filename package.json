@@ -1,0 +1,11 @@
+{
+  "name": "heyram-infrastructure-local",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local wrapper for the extracted Heyram Infrastructure frontend build.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs"
+  }
+}
