@@ -19657,19 +19657,19 @@ function Footer() {
             className:
               "grid grid-cols-3 gap-4 mx-4 my-4 text-white lg:text-[0.8rem] text-[0.7rem] font-light text-center tracking-wider footer_services_grid footer_digital_services_grid",
             children: [
-              "Search Engine Optimization (SEO)",
-              "Pay-Per-Click (PPC) Advertising",
-              "Social Media Marketing (SMM)",
+              "Search Engine Optimization",
+              "Pay-Per-Click Advertising",
+              "Social Media Marketing",
               "Content Marketing",
               "Email Marketing",
               "WhatsApp Marketing",
-              "Conversion Rate Optimization (CRO)",
+              "Conversion Rate Optimization",
               "Influencer Marketing",
               "Analytics And Reporting",
-              "Online Reputation Management",
               "Branding Services",
               "Traffic Generation",
               "Lead Generation",
+              "Online Reputation Management",
             ].map((sr, ar) =>
               jsxRuntimeExports.jsx(
                 "div",
@@ -19698,7 +19698,7 @@ function Footer() {
           }),
           jsxRuntimeExports.jsx("div", {
             className:
-              "grid grid-cols-3 gap-4 mx-4 my-4 text-white lg:text-[0.8rem] text-[0.7rem] font-light text-center justify-start tracking-wider footer_services_grid",
+              "grid grid-cols-3 gap-4 mx-4 my-4 text-white lg:text-[0.8rem] text-[0.7rem] font-light text-center justify-start tracking-wider footer_services_grid footer_ai_data_grid",
             children: ["Gen-Z AI", "Data Analysis"].map((sr, ar) =>
               jsxRuntimeExports.jsx(
                 "div",
