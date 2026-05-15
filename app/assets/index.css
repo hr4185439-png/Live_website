@@ -154,6 +154,7 @@ input:autofill {
   justify-content: center;
   align-items: center;
 }
+
 .footermain {
   width: 100%;
   padding-top: 2rem;
@@ -267,25 +268,25 @@ input:autofill {
   .footer_div1_1>h1 {
     font-weight: 300;
     letter-spacing: 1px;
-    font-size: calc(8px + 1vw);
+    font-size: calc(4px + 1vw);
   }
 
   .footer_div1_1>div {
     font-weight: 300;
     letter-spacing: 1.5px;
-    color: #e7e6e6
-    font-size: calc(4px + 1vw);
+    color: #e7e6e6;
+    font-size: calc(2px + 1vw);
   }
 
   .footer_div2>div {
     width: 50%;
-    font-size: calc(8px + 1vw);
+    font-size: calc(4px + 1vw);
   }
 
   .footer_div21 {
     font-weight: 200;
     padding-left: 2%;
-    font-size: calc(4px + 1vw);
+    font-size: calc(2px + 1vw);
   }
 
   .footer_div22 {
@@ -293,7 +294,7 @@ input:autofill {
     font-weight: 200;
     letter-spacing: 1px;
     padding-right: 1%;
-    font-size: calc(4px + 1vw);
+    font-size: calc(2px + 1vw);
   }
 
   .footer_div1_1>div {
@@ -303,7 +304,7 @@ input:autofill {
   .footer_services_grid {
     grid-template-columns: minmax(0, 1fr) !important;
     gap: 0.75rem !important;
-    font-size: calc(4px + 1vw) !important;
+    font-size: calc(2px + 1vw) !important;
   }
 
   .footer_web_services_grid {
@@ -319,7 +320,7 @@ input:autofill {
   }
 
   .footer_services_title {
-    font-size: calc(8px + 1vw) !important;
+    font-size: calc(4px + 1vw) !important;
   }
 }
 
