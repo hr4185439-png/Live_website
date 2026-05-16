@@ -19722,7 +19722,7 @@ function Footer() {
         children: [
           jsxRuntimeExports.jsx("div", {
             className: "footer_div21 tracking-wider",
-            children: "www.heyraminfrastructure.com",
+            children: "www.heyraminfrastructure.in",
           }),
           jsxRuntimeExports.jsxs("div", {
             className: "footer_div22",
