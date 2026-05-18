@@ -2,5 +2,11 @@
   "framework": null,
   "buildCommand": null,
   "outputDirectory": "app",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
