@@ -106311,7 +106311,7 @@ Phone: ${lr.phone}
 Message:
 ${lr.message}`
           ),
-          hr = `https://mail.google.com/mail/?view=cm&fs=1&to=hr@purityprop.com&su=${cr}&body=${ur}`,
+          hr = `https://mail.google.com/mail/?view=cm&fs=1&to=core@heyraminfrastructure.in&su=${cr}&body=${ur}`,
           dr = window.open(hr, "_blank", "noopener,noreferrer");
         dr || (window.location.href = hr),
           tr(!1),
@@ -106518,7 +106518,7 @@ ${lr.message}`
                             children: "Email Us ",
                           }),
                           jsxRuntimeExports.jsx("p", {
-                            children: "hr@purityprop.com",
+                            children: "core@heyraminfrastructure.in",
                           }),
                         ],
                       }),
@@ -106754,7 +106754,7 @@ ${lr.message}`
                                   children: "Email Us ",
                                 }),
                                 jsxRuntimeExports.jsx("p", {
-                                  children: "hr@purityprop.com",
+                                  children: "core@heyraminfrastructure.in",
                                 }),
                               ],
                             }),
@@ -157641,7 +157641,7 @@ const TermsOfUse = () => (
                   children: [
                     "Company: Heyram Infrastructure",
                     "Location: Tamil Nadu, India",
-                    "Email: hr@purityprop.com",
+                    "Email: core@heyraminfrastructure.in",
                   ].map((item) => jsxRuntimeExports.jsx("p", {
                     key: item,
                     className: "leading-relaxed font-light tracking-wider lg:text-xs text-[0.6rem]",
