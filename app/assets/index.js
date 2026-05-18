@@ -103198,49 +103198,49 @@ function MainSection() {
     };
   }, [ir, rr.length]);
   const dr = (pr) => {
-      !sr && pr !== ir && nr(pr);
-    },
+    !sr && pr !== ir && nr(pr);
+  },
     hr = (dr) => {
       switch (dr) {
         case 0:
           return {
             initial: { opacity: 0, y: -100 },
             animate: { opacity: 1, y: 0 },
-          exit: { opacity: 0, y: -100 },
-          transition: { duration: 0.6, ease: "easeInOut" },
-        };
-      case 1:
-        return {
-          initial: { opacity: 0, x: -100, y: 0 },
-          animate: { opacity: 1, x: 0, y: 0 },
-          exit: { opacity: 0, x: -100, y: 0 },
-          transition: { duration: 0.6, ease: "easeInOut" },
-        };
-      case 2:
-        return {
-          initial: { opacity: 0, y: 100 },
-          animate: { opacity: 1, y: 0 },
-          exit: { opacity: 0, y: 100 },
-          transition: { duration: 0.6, ease: "easeInOut" },
-        };
-      case 3:
-        return {
-          initial: { opacity: 0, x: 100, y: 0 },
-          animate: { opacity: 1, x: 0, y: 0 },
-          exit: { opacity: 0, x: 100, y: 0 },
-          transition: { duration: 0.6, ease: "easeInOut" },
-        };
-      case 4:
-        return {
-          initial: { opacity: 0, scale: 0.8 },
-          animate: { opacity: 1, scale: 1 },
-          exit: { opacity: 0, scale: 0.8 },
-          transition: { duration: 0.6, ease: "easeInOut" },
-        };
-      default:
-        return {};
-    }
-  };
+            exit: { opacity: 0, y: -100 },
+            transition: { duration: 0.6, ease: "easeInOut" },
+          };
+        case 1:
+          return {
+            initial: { opacity: 0, x: -100, y: 0 },
+            animate: { opacity: 1, x: 0, y: 0 },
+            exit: { opacity: 0, x: -100, y: 0 },
+            transition: { duration: 0.6, ease: "easeInOut" },
+          };
+        case 2:
+          return {
+            initial: { opacity: 0, y: 100 },
+            animate: { opacity: 1, y: 0 },
+            exit: { opacity: 0, y: 100 },
+            transition: { duration: 0.6, ease: "easeInOut" },
+          };
+        case 3:
+          return {
+            initial: { opacity: 0, x: 100, y: 0 },
+            animate: { opacity: 1, x: 0, y: 0 },
+            exit: { opacity: 0, x: 100, y: 0 },
+            transition: { duration: 0.6, ease: "easeInOut" },
+          };
+        case 4:
+          return {
+            initial: { opacity: 0, scale: 0.8 },
+            animate: { opacity: 1, scale: 1 },
+            exit: { opacity: 0, scale: 0.8 },
+            transition: { duration: 0.6, ease: "easeInOut" },
+          };
+        default:
+          return {};
+      }
+    };
   return jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, {
     children: jsxRuntimeExports.jsxs("div", {
       className: "relative flex flex-col h-screen md:flex-row",
@@ -106311,7 +106311,7 @@ Phone: ${lr.phone}
 Message:
 ${lr.message}`
           ),
-          hr = `https://mail.google.com/mail/?view=cm&fs=1&to=hr@purityprop.com&su=${cr}&body=${ur}`,
+          hr = `https://mail.google.com/mail/?view=cm&fs=1&to=core@heyraminfrastructure.in&su=${cr}&body=${ur}`,
           dr = window.open(hr, "_blank", "noopener,noreferrer");
         dr || (window.location.href = hr),
           tr(!1),
@@ -106518,7 +106518,7 @@ ${lr.message}`
                             children: "Email Us ",
                           }),
                           jsxRuntimeExports.jsx("p", {
-                            children: "hr@purityprop.com",
+                            children: "core@heyraminfrastructure.in",
                           }),
                         ],
                       }),
@@ -106754,7 +106754,7 @@ ${lr.message}`
                                   children: "Email Us ",
                                 }),
                                 jsxRuntimeExports.jsx("p", {
-                                  children: "hr@purityprop.com",
+                                  children: "core@heyraminfrastructure.in",
                                 }),
                               ],
                             }),
@@ -157641,7 +157641,7 @@ const TermsOfUse = () => (
                   children: [
                     "Company: Heyram Infrastructure",
                     "Location: Tamil Nadu, India",
-                    "Email: hr@purityprop.com",
+                    "Email: core@heyraminfrastructure.in",
                   ].map((item) => jsxRuntimeExports.jsx("p", {
                     key: item,
                     className: "leading-relaxed font-light tracking-wider lg:text-xs text-[0.6rem]",
