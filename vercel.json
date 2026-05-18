@@ -1,6 +1,6 @@
 {
   "framework": null,
-  "buildCommand": null,
+  "buildCommand": "echo 'No build step required'",
   "outputDirectory": "app",
   "cleanUrls": true,
   "rewrites": [
